@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="hide-it.xsl" type="text/xsl"?>
+
+<layouttype>thumbnail</layouttype>
+
+<channels>
+
+<channel>
+    	<name>[B][I][COLOR orangered]<< SMARTNET SPECIAL LINKS >>[/COLOR][/I][/B]</name>
+    	<thumbnail>https://aeros96.000webhostapp.com/build/uploadz/icon.png</thumbnail>
+    	<externallink>ignorme</externallink>
+    	<fanart>-</fanart>
+    	<content></content>
+</channel>
+
+<channel>
+    	<name>[B][COLORorange]- FLUXUS - IPTV[/COLOR][/B]</name>
+    	<thumbnail>https://3.bp.blogspot.com/-DyYQANZ_Fqw/WZ3_DPejZ4I/AAAAAAAAA4M/L0lLQ8OfmhcQANdpMX2fDGhYR_RUqmk6wCLcBGAs/s400/FIPTVLaunch.png</thumbnail>
+    	<externallink>https://bit.ly/FluxusTV-IPTV</externallink>
+    	<fanart></fanart>
+    	<content></content>
+</channel>
+
+<channel>
+    	<name>[B][COLORorange]- FLUXUS - MOVIES FRENCH[/COLOR][/B]</name>
+    	<thumbnail>https://2.bp.blogspot.com/-Io8bKo-SvmQ/W6A3gO2QPuI/AAAAAAAAD8E/BxzXTUBKA2IaiP_52XW21utzkgvHchi5ACLcBGAs/s320/french-movies.jpg</thumbnail>
+    	<externallink>https://bit.ly/fcine-fre</externallink>
+    	<fanart></fanart>
+    	<content></content>
+</channel>
+
+<channel>
+        <name>[B][COLORorange]- FLUXUS - MOVIES ENGLISH[/COLOR][/B]</name>
+        <thumbnail>https://2.bp.blogspot.com/-CvM-LO7iXBg/W6A1ttZh4oI/AAAAAAAAD7w/ATGTZyju0RsUbu0qXH-jWHFarGmiJd2qgCLcBGAs/s320/user-image-26861871-1507878696-59e06728edd66.jpeg</thumbnail>
+        <externallink>https://bit.ly/fcine-eng</externallink>
+        <fanart></fanart>
+        <content></content>
+</channel>
+
+<channel>
+        <name>[B][COLORorange]- FLUXUS - MOVIES ARABIC[/COLOR][/B]</name>
+        <thumbnail>https://1.bp.blogspot.com/-FRebpNurHQI/W6A9w2Q8DWI/AAAAAAAAD8w/mctTb80NUHYXT96JkLmt10ESBluRhfFGgCLcBGAs/s320/57753015749439760-jpg-15445294718296374.jpg</thumbnail>
+        <externallink>https://bit.ly/fcine-ara</externallink>
+        <fanart></fanart>
+        <content></content>
+</channel>
+
+<channel>
+        <name>[B][COLORorange]- LODGE - TV[/COLOR][/B]</name>
+        <thumbnail>https://4.bp.blogspot.com/-0vviW_Ipc2o/WrC8jwf5Q2I/AAAAAAAAC4A/RgsIE118KHYoLCdQLE-qgR-x-0R5GMjXgCLcBGAs/s320/LTV-ENGLISH.png</thumbnail>
+        <externallink>https://bit.ly/ltv-english</externallink>
+        <fanart></fanart>
+        <content></content>
+</channel>
+
+<channel>
+        <name>[B][COLORorange]- LODGE - TV ARABIC[/COLOR][/B]</name>
+        <thumbnail>https://1.bp.blogspot.com/-GS4ANxAxFi8/WrC8q-0ybfI/AAAAAAAAC4E/S4cHsB00Hpg5VLt2Gc0Mzt8bfYrqQbFKgCLcBGAs/s320/LTV-ARABIC.png</thumbnail>
+        <externallink>https://bit.ly/ltv-arabic</externallink>
+        <fanart></fanart>
+        <content></content>
+</channel>
+
+<channel>
+        <name>[B][COLORorange]- STRATUS - USA/CANADA TV[/COLOR][/B]</name>
+        <thumbnail>https://2.bp.blogspot.com/-dmh522gruT8/W1KZ86AruQI/AAAAAAAADhY/zGYXq1VXPBkqMiL6lpGTG8bzIoSXMeTIQCLcBGAs/s320/gettyimages-688899881-1519413300.jpg</thumbnail>
+        <externallink>https://bit.ly/stv-us</externallink>
+        <fanart></fanart>
+        <content></content>
+</channel>
+
+<channel>
+        <name>[B][COLORorange]- STRATUS - TV ARABIC[/COLOR][/B]</name>
+        <thumbnail>https://2.bp.blogspot.com/-l6Lh02j_4u4/W1k-fuH0YTI/AAAAAAAADjk/k3szBKuzg488_o0H9hxBlrU-vnp9AQUAgCLcBGAs/s320/b7abf1ff9ee60fb95a6b25ceafbcd236.jpg</thumbnail>
+        <externallink>https://bit.ly/stv-ar</externallink>
+        <fanart></fanart>
+        <content></content>
+</channel>
+
+<channel>
+       <name>[B][COLOR aqua]•[/COLOR] [COLORaqua]SMARTNET TV[COLOR white][B] Canadian [/COLOR]•[COLORgreen] 1[/COLOR][/B]</name>
+       <thumbnail>https://4.bp.blogspot.com/-9kGKhLrw9Qs/WpOc7OVhXqI/AAAAAAAAAio/57tN4uCq1_ga2A8A1BNb3nocBcmIymhGACLcBGAs/s320/Best-IPTV.png</thumbnail>
+       <externallink>https://aeros96.000webhostapp.com/build/uploadz/m3u/live_tv_ca.m3u</externallink>
+       <fanart></fanart>
+       <info>[B][COLORyellow]Canadiens IPTV[/COLOR][/B]</info>
+</channel>
+
+<channel>
+       <name>[B][COLOR aqua]•[/COLOR] [COLORaqua]SMARTNET TV[COLOR white][B] USA [/COLOR]•[COLORgreen] 1[/COLOR][/B]</name>
+       <thumbnail>https://4.bp.blogspot.com/-9kGKhLrw9Qs/WpOc7OVhXqI/AAAAAAAAAio/57tN4uCq1_ga2A8A1BNb3nocBcmIymhGACLcBGAs/s320/Best-IPTV.png</thumbnail>
+       <link>special://home/addons\plugin.video.catchuptvandmore\resources\m3u\live_tv_us.m3u</link>
+       <fanart></fanart>
+       <info>[B][COLORyellow]USA IPTV List 1[/COLOR][/B]</info>
+</channel>
+
+<channel>
+      	<name>[B][COLOR aqua]•[/COLOR] [COLORaqua] SMARTNET TV [COLOR white] France[/COLOR][COLORaqua] •[/COLOR][/B]</name>
+      	<thumbnail>https://4.bp.blogspot.com/-9kGKhLrw9Qs/WpOc7OVhXqI/AAAAAAAAAio/57tN4uCq1_ga2A8A1BNb3nocBcmIymhGACLcBGAs/s320/Best-IPTV.png</thumbnail>
+      	<externallink>https://aeros96.000webhostapp.com/build/uploadz/France.xml</externallink>
+      	<fanart></fanart>
+      	<info>[COLORyellow]France Streams[/COLOR]</info>
+</channel>
+
+<channel>
+      	<name>[B][COLOR aqua]•[/COLOR] [COLORaqua] SMARTNET TV [COLOR white] U.S.A[/COLOR][COLORaqua] •[/COLOR][/B]</name>
+      	<thumbnail>https://4.bp.blogspot.com/-9kGKhLrw9Qs/WpOc7OVhXqI/AAAAAAAAAio/57tN4uCq1_ga2A8A1BNb3nocBcmIymhGACLcBGAs/s320/Best-IPTV.png</thumbnail>
+      	<externallink>https://aeros96.000webhostapp.com/build/uploadz/USA1.xml</externallink>
+      	<fanart></fanart>
+      	<info>[COLORyellow]UK Streams[/COLOR]</info>
+</channel>
+
+<channel>
+      	<name>[B][COLOR aqua]•[/COLOR] [COLORaqua] SMARTNET TV [COLOR white] UK[/COLOR] [COLORaqua] •[/COLOR][/B]</name>
+      	<thumbnail>https://4.bp.blogspot.com/-9kGKhLrw9Qs/WpOc7OVhXqI/AAAAAAAAAio/57tN4uCq1_ga2A8A1BNb3nocBcmIymhGACLcBGAs/s320/Best-IPTV.png</thumbnail>
+      	<externallink>https://aeros96.000webhostapp.com/build/uploadz/UK_List.xml</externallink>
+      	<fanart></fanart>
+      	<info>[COLORyellow]UK Streams[/COLOR]</info>
+</channel>
+
+<channel>
+       <name>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLOR white][B][I] Atom [COLOR red]•[/COLOR][COLORaqua]•[/COLOR][/I][/B]</name>
+       <thumbnail>https://4.bp.blogspot.com/-9kGKhLrw9Qs/WpOc7OVhXqI/AAAAAAAAAio/57tN4uCq1_ga2A8A1BNb3nocBcmIymhGACLcBGAs/s320/Best-IPTV.png</thumbnail>
+       <externallink>http://ccld.io/atom.m3u</externallink>
+       <fanart></fanart>
+       <info>[B][COLORyellow]Canadiens IPTV (cCloud replace by Atom)[/COLOR][/B]</info>
+</channel>
+
+<channel>
+       <name>[B][COLOR aqua]•[/COLOR][COLORred]•[/COLOR][COLORaqua]SPORTS CLASSIC TV[COLORwhite][B][I]E-Doctor[/COLOR][/I][/B]</name>
+       <thumbnail>https://4.bp.blogspot.com/-9kGKhLrw9Qs/WpOc7OVhXqI/AAAAAAAAAio/57tN4uCq1_ga2A8A1BNb3nocBcmIymhGACLcBGAs/s320/Best-IPTV.png</thumbnail>
+       <externallink>http://pastebin.com/raw/K2X65rB3</externallink>
+       <fanart></fanart>
+       <info>[B][COLORyellow]Some works some dont(World)[/COLOR][/B]/info>
+</channel>
+
+
+---------------------------------------------------------------------------------->
+<channel>
+      <name>[B][COLORorangered]- VOD Movies - [/COLOR][COLOR white]New Releases[/COLOR][/B]</name>
+      <thumbnail>http://www.shark55.com/thumbnail/SportsClassicThumbnail.png</thumbnail>
+      <externallink>http://www.shark55.com/ssports/Movies/MoviesNewRelease.xml</externallink>
+      <fanart>https://www.hds.to/images/slider/top_2017.jpg</fanart>
+      <info>Movies New Release</info>
+</channel>
+
+<channel>
+      <name>[B][COLOR aqua]- Films Francais[/COLOR][/B]</name>
+      <thumbnail>http://www.shark55.com/thumbnail/SportsClassicThumbnail.png</thumbnail>
+      <externallink>http://www.shark55.com/ssports/Movies/MovieFrench.xml</externallink>
+      <fanart>https://www.hds.to/images/slider/top_2017.jpg</fanart>
+      <info>Movies New Release</info>
+</channel>
+
+<channel>
+      <name>[B][COLOR aqua]- Films Francais[/COLOR][/B]</name>
+      <thumbnail>http://www.shark55.com/thumbnail/SportsClassicThumbnail.png</thumbnail>
+      <externallink>http://www.shark55.com/ssports/Movies/MovieFrench3.xml</externallink>
+      <fanart>https://www.hds.to/images/slider/top_2017.jpg</fanart>
+      <info>Movies New Release</info>
+</channel>
+
+<-----------------------------------------------------------------------------
+<channel>
+      <name>[B][COLOR aqua]- VOD BOX OFFICE - [/COLOR][COLOR white]French[/COLOR][/B]</name>
+      <thumbnail>https://rogermooresmovienation.files.wordpress.com/2017/11/box.png?w=640</thumbnail>
+      <externallink>http://www.shark55.com/ssports/Movies/VOD%20BOX%20OFFICE%20FR.xml</externallink>
+      <fanart>http://celebzmagazine.com/wp-content/uploads/2018/01/box.jpg</fanart>
+      <info>[B][COLORyellow]BoxOffice IPTV[/COLOR][/B]</info>
+</channel>
+
+
+</channels>
+<!------------------------------
+<channel>
+    	<name>[B][COLORorange]- MOVIES - Chronos[/COLOR][/B]</name>
+    	<thumbnail>http://4.bp.blogspot.com/-R5sOcauMoWI/VitofNnjkWI/AAAAAAAABeM/XSqpXTZvd58/s1600/sf.jpg</thumbnail>
+    	<externallink>https://aeros96.000webhostapp.com/build/uploadz/movies.txt</externallink>
+    	<fanart></fanart>
+    	<content></content>
+</channel>
+
+<channel>
+    	<name>[B][COLORorange]- 24/7 MOVIES - MagicDragon[/COLOR][/B]</name>
+    	<thumbnail>http://4.bp.blogspot.com/-R5sOcauMoWI/VitofNnjkWI/AAAAAAAABeM/XSqpXTZvd58/s1600/sf.jpg</thumbnail>
+    	<externallink>https://aeros96.000webhostapp.com/build/uploadz/247movies.xml</externallink>
+    	<fanart></fanart>
+    	<content></content>
+</channel>
+
+<channel>
+    	<name>[B][COLORorange]- OPUS - FRENCH TV[/COLOR][/B]</name>
+    	<thumbnail>http://4.bp.blogspot.com/-R5sOcauMoWI/VitofNnjkWI/AAAAAAAABeM/XSqpXTZvd58/s1600/sf.jpg</thumbnail>
+    	<externallink>https://aeros96.000webhostapp.com/build/uploadz/1qc_fr.m3u</externallink>
+    	<fanart></fanart>
+    	<content></content>
+</channel>
+
+<channel>
+    	<name>[B][COLORorange]- OPUS - ENGLISH TV[/COLOR][/B]</name>
+    	<thumbnail>http://4.bp.blogspot.com/-R5sOcauMoWI/VitofNnjkWI/AAAAAAAABeM/XSqpXTZvd58/s1600/sf.jpg</thumbnail>
+    	<externallink>https://aeros96.000webhostapp.com/build/uploadz/1qc_en.m3u</externallink>
+    	<fanart></fanart>
+    	<content></content>
+</channel>
+
+
+<!------------------------------
+<channel>
+<name>[COLOR purple]-[/COLOR][COLORlightseagreen]---------[/COLOR][COLOR purple]-[/COLOR][/B]</name>
+<thumbnail>http://www.shark55.com/thumbnail/icon(6).png</thumbnail>
+<externallink>http://www.shark55.com/ssports/Movies/MoviesM3u.xml</externallink>
+<fanart>https://www.hds.to/images/slider/top_2017.jpg</fanart>
+<info>Movies New Release</info>
+</channel>
+
+<channel>
+    <name>[B][I]####[COLOR chartreuse] IPTV PlayList (Test) [/COLOR]####[/I][/B]</name>
+    <thumbnail></thumbnail>
+    <externallink>https://raw.githubusercontent.com/thanh51/repository.thanh51/master/IPTVwold.xml</externallink>
+    <fanart></fanart>
+    <info></info>
+</channel>
+<!--
+<channel>
+    <name>[B][I]####[COLOR chartreuse] VivaList (Test) [/COLOR]####[/I][/B]</name>
+    <thumbnail></thumbnail>
+    <externallink>http://www.shark55.com/ssports/sportsnew/vivalist.xml</externallink>
+    <fanart></fanart>
+    <info></info>
+</channel>
+
+

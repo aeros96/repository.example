@@ -1,0 +1,10 @@
+Root Link
+https://aeros96.000webhostapp.com/build/uploadz/sportsclassicmain.xml
+
+Movies
+https://aeros96.000webhostapp.com/build/uploadz/movies.txt
+
+24/7  Movies
+https://aeros96.000webhostapp.com/build/uploadz/247movies.xml
+
+

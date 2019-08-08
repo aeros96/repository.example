@@ -1,0 +1,52 @@
+<channels>
+
+
+<channel>
+<name>Movies Popular</name>
+<thumbnail></thumbnail>
+<externallink>tmdb=movie:list_id=:list_type=popular:=list</externallink>
+<fanart></fanart>
+<info></info>
+</channel>
+
+<channel>
+<name>Now Playing</name>
+<thumbnail></thumbnail>
+<externallink>tmdb=movie:list_id=:list_type=now_playing:=list</externallink>
+<fanart></fanart>
+<info></info>
+</channel>
+
+<channel>
+<name>Top Rated</name>
+<thumbnail></thumbnail>
+<externallink>tmdb=movie:list_id=:list_type=top_rated:=list</externallink>
+<fanart></fanart>
+<info></info>
+</channel>
+
+<channel>
+<name>Random</name>
+<externallink>tmdb=list:list_id=87722:list_type=movies:=list</externallink>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</channel>
+
+<channel>
+<name>Dan's List</name>
+<externallink>tmdb=list:list_id=87917:list_type=movies:=list</externallink>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</channel>
+
+<channel>
+<name>Aeros's List</name>
+<externallink>tmdb=list:list_id=90441:list_type=movies:=list</externallink>
+<thumbnail></thumbnail>
+<fanart></fanart>
+<info></info>
+</channel>
+
+</channels>
