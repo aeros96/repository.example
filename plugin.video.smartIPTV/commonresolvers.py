@@ -73,12 +73,12 @@ def get(url):
 
     else:
         try:
-            import urlresolver
-            host = urlresolver.HostedMediaFile(url)
-            if host: resolver = urlresolver.resolve(url)
+            import resolveurl
+            host = resolveurl.HostedMediaFile(url)
+            if host: resolver = resolveurl.resolve(url)
             else: return url
-            if not resolver.startswith('http://'): return
-            if not resolver == url: return resolver
+            if not resolveurl.startswith('http://'): return
+            if not resolveurl == url: return resolveurl
         except:
             pass
 

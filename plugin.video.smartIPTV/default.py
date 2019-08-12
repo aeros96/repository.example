@@ -16,6 +16,7 @@ try:
     import json
 except:
     import simplejson as json
+import resolveurl as RESOLVE
 import SimpleDownloader as downloader
 import time
 import requests
@@ -91,11 +92,11 @@ def makeRequest(url, headers=None):
             addon_log('URL: '+url)
             if hasattr(e, 'code'):
                 addon_log('We failed with error code - %s.' % e.code)
-                xbmc.executebuiltin("XBMC.Notification(Smartnet Classic, We failed with error code - "+str(e.code)+",10000,"+icon+")")
+                xbmc.executebuiltin("XBMC.Notification(Sports Classic, We failed with error code - "+str(e.code)+",10000,"+icon+")")
             elif hasattr(e, 'reason'):
                 addon_log('We failed to reach a server.')
                 addon_log('Reason: %s' %e.reason)
-                xbmc.executebuiltin("XBMC.Notification(Smartnet Classic, We failed to reach a server. - "+str(e.reason)+",10000,"+icon+")")
+                xbmc.executebuiltin("XBMC.Notification(Sports Classic, We failed to reach a server. - "+str(e.reason)+",10000,"+icon+")")
 
 				
 def SKindex():
@@ -267,7 +268,7 @@ def addSource(url=None):
             b.close()
         addon.setSetting('new_url_source', "")
         addon.setSetting('new_file_source', "")
-        xbmc.executebuiltin("XBMC.Notification(Smartnet Classic, New source added.,5000,"+icon+")")
+        xbmc.executebuiltin("XBMC.Notification(Sports Classic, New source added.,5000,"+icon+")")
         if not url is None:
             if 'xbmcplus.xb.funpic.de' in url:
                 xbmc.executebuiltin("XBMC.Container.Update(%s?mode=14,replace)" %sys.argv[0])
@@ -468,75 +469,33 @@ def getData(url,fanart):
         parse_m3u(soup)
 
     if SetViewLayout == "Thumbnail":
-       SetViewThumbnail()
-	   
-def WizHDMenu(url,iconimage,fanart):    
-    html = requests.get('http://wizhdsports.fi/index.php').content
-    block = re.compile('<ul class="sports_menu">(.+?)</ul>',re.DOTALL).findall(html)
-    for item in block:
-        match = re.compile('<a href="(.+?)".+?src="(.+?)".+?> (.+?)</li>').findall(str(item))
-        for url2,iconimage,name in match:
-            name = name.title()
-            if name == 'Nfl':image = Nfl
-            elif name == 'Football':image = Football
-            elif name == 'Cricket':image = Cricket
-            elif name == 'Tennis':image = Tennis
-            elif name == 'Boxing':image = Boxing
-            elif name == 'Golf':image = Golf
-            elif name == 'Motosports':image = Motorsports
-            elif name == 'Rugby':image = Rugby
-            elif name == 'Hockey':image = Hockey
-            elif name == 'Nba':image = Nba
-            elif name == 'Darts':image = Darts
-            elif name == 'Wwe':image = Wwe
-            elif name == 'Horse Racing':image = Horse_Racing
-            elif name == 'Ufc':image = Ufc
-            elif name == 'Baseball':image = Baseball
-            elif name == 'Others':image= Others
-            if name == 'Tv Shows':pass
-            elif name == 'P2P Online':pass
-            else:
-                if iconimage == '':
-                    image = iconimage
-                addDir('[B][COLOR gold]%s[/COLOR][/B]'%name.encode('utf-8'),url2.encode('utf-8'),32,iconimage,fanart,'','','',None,'source')
-                
-def Wiz_Get_url(url):
-    List = []
+       SetViewThumbnail()  
+####################  
 
-    from datetime import datetime
-    todays_day = datetime.now().strftime('%d')
-    todays_month = datetime.now().strftime('%m')
-    todays_year = datetime.now().strftime('%Y')
-    todays_hour = datetime.now().strftime('%H')
-    todays_minute = datetime.now().strftime('%M')
-    fin_date = todays_day+'-'+todays_month+'-'+todays_year
-    html = requests.get(url).content
-    block = re.compile('<h3>.+? Games On : (.+?)</h3>(.+?)<li class=\'sports_red_bar\'>',re.DOTALL).findall(html)
-    for date,rest in block:
-        if date == fin_date:
-            match = re.compile('<div class=\'col-md-2\'>.+?</span>(.+?)</div>.+?<div class=\'col-md-6\'>(.+?)</div>.+?<div class="card-block drop_box">(.+?)<div class="card">',re.DOTALL).findall(str(rest))
-            for time,teams,link_block in match:
-                total = len(match)
-                teams = teams.replace('  ','').replace('    ','')
-                link_block = link_block.replace('  ','')
-                time_split = re.findall('(.+?):(.+?)-(.+?):(.+?)>',str(time+'>'))
-                for start_hour,start_min,fin_hour,fin_min in time_split:
-                    start_no = int(start_hour)*24+int(start_min)
-                    fin_no = int(fin_hour)*24+int(fin_min)
-                    time_now = int(todays_hour)*24+int(todays_minute)
-                    if fin_no>time_now>start_no:
-                        name = teams
-                    else:
-                        name = teams
-                link_get = re.compile("<a href='(.+?)'>.+?>(.+?)</div></a>").findall(str(link_block))
-                for link,chnl in link_get:
-                    link = 'plugin://plugin.video.SportsDevil/?mode=1&amp;item=catcher%3dstreams%26url='+link
-                    if len(link_get)>10:
-                        link_get = re.compile('<div class="card-block drop_box">(.+?)<a href="(.+?)" "(.+?)">(.+?)</a></div>').findall(str(link_block))
-                        List.append((link_get,chnl))
-                    else:
-                        addDir('[COLOR orangered][B]LOADING TAKES FOR EVER[/B][/COLOR]',url,0,iconimage,fanart,'','','',None,'source')
-                        addLink(link,'[B][COLOR lime]%s[/COLOR][/B]'%time.replace(' ','')+'-'+'[B][COLOR white]%s[/COLOR][/B]'%name.encode('utf-8', 'ignore'),icon,FANART,'','','',True,None,regexs,total)
+def urlsolver(url):
+    host = RESOLVE.HostedMediaFile(url)
+    ValidUrl = host.valid_url()
+    if ValidUrl == True :
+        resolver = RESOLVE.resolve(url)
+    elif ValidUrl == False:
+        import genesisresolvers
+        resolved=genesisresolvers.get(url).result
+        if resolved :
+            if isinstance(resolved,list):
+                for k in resolved:
+                    quality = setting('quality')
+                    if k['quality'] == 'HD'  :
+                        resolver = k['url']
+                        break
+                    elif k['quality'] == 'SD' :
+                        resolver = k['url']
+                    elif k['quality'] == '10080p' and setting('10080pquality') == 'true' :
+                        resolver = k['url']
+                        break
+            else:
+                resolver = resolved
+    return resolver
+####################
 
 	
 	
@@ -727,7 +686,7 @@ def SearchChannels():
     ReadChannel = 0
     FoundMatch = 0
     progress = xbmcgui.DialogProgress()
-    progress.create('Smartnet Classic Is Looking for Something!, Please wait',' ')
+    progress.create('Sports Classic Is Looking for Something!, Please wait',' ')
 	
     while FoundChannel <> ReadChannel:
         BaseSearch = List[ReadChannel].strip()
@@ -2171,12 +2130,12 @@ def play_playlist(name, mu_playlist):
 
 def download_file(name, url):
         if addon.getSetting('save_location') == "":
-            xbmc.executebuiltin("XBMC.Notification('Smartnet Classic','Choose a location to save files.',15000,"+icon+")")
+            xbmc.executebuiltin("XBMC.Notification('Sports Classic','Choose a location to save files.',15000,"+icon+")")
             addon.openSettings()
         params = {'url': url, 'download_path': addon.getSetting('save_location')}
         downloader.download(name, params)
         dialog = xbmcgui.Dialog()
-        ret = dialog.yesno('Smartnet Classic', 'Do you want to add this file as a source?')
+        ret = dialog.yesno('Sports Classic', 'Do you want to add this file as a source?')
         if ret:
             addSource(os.path.join(addon.getSetting('save_location'), name))
 
@@ -2310,7 +2269,7 @@ def search(site_name,search_term=None):
                 SaveToFile(history,page_data,append=True)
                 return url
         else:
-            xbmc.executebuiltin("XBMC.Notification(Smartnet Classic, No IMDB match found ,7000,"+icon+")")
+            xbmc.executebuiltin("XBMC.Notification(Sports Classic, No IMDB match found ,7000,"+icon+")")
 ## Lunatixz PseudoTV feature
 def ascii(string):
     if isinstance(string, basestring):
@@ -2701,13 +2660,13 @@ elif mode==17:
     if url:
         playsetresolved(url,name,iconimage,setresolved)
     else:
-        xbmc.executebuiltin("XBMC.Notification(Smartnet Classic, Failed to extract Regex - "+"this"+",4000,"+icon+")")
+        xbmc.executebuiltin("XBMC.Notification(Sports Classic, Failed to extract Regex - "+"this"+",4000,"+icon+")")
 elif mode==18:
     addon_log("youtubedl")
     try:
         import youtubedl
     except Exception:
-        xbmc.executebuiltin("XBMC.Notification(Smartnet Classic ,Please [COLOR yellow]Install the Youtube Add-On[/COLOR] module ,10000,"")")
+        xbmc.executebuiltin("XBMC.Notification(Sports Classic ,Please [COLOR yellow]Install the Youtube Add-On[/COLOR] module ,10000,"")")
     stream_url=youtubedl.single_YD(url)
     playsetresolved(stream_url,name,iconimage)
 elif mode==19:

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.smartIPTV"
        name="[COLOR white][B][COLOR dodgerblue]SmartNet IPTV[/B][/COLOR]"
-       version="1.0.2"
+       version="1.0.4"
        provider-name="Shark55">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -18,7 +18,11 @@
     <import addon="script.module.simplejson" /> 
     <import addon="script.common.plugin.cache" version="2.5.2"/>
     <import addon="script.module.metahandler" version="2.5.1"/>
-
+	<import addon="script.elementum.burst" optional="true" />
+    <import addon="plugin.video.elementum" optional="true"/>
+	
+	
+	
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
