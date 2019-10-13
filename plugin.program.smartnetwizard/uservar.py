@@ -7,7 +7,7 @@ ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
 ADDONTITLE     = 'Smartnet Wizard'
 EXCLUDES       = [ADDON_ID, '']
 # Text File with build info in it.
-BUILDFILE      = 'https://aeros96.000webhostapp.com/build/smartnetwizard.txt'
+BUILDFILE      = 'https://raw.githubusercontent.com/aeros96/smartnet/master/smartnetwizard.txt'
 # How often you would list it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
