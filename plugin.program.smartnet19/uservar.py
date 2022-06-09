@@ -17,7 +17,7 @@ ADDONTITLE = '[COLOR darkorange]Smartnet [/COLOR]Matrix Wizard'
 BUILDERNAME = 'Aeros '
 EXCLUDES = [ADDON_ID, 'repository.smartnet9']
 # Text File with build info in it.
-BUILDFILE = 'https://raw.githubusercontent.com/aeros96/smartnet/master/smartnetwizard19.txt'
+BUILDFILE = 'https://raw.githubusercontent.com/aeros96/repository.smartnet9/master/aeros/smartnetwizard19.txt'
 # How often you would like it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK = 0
@@ -96,7 +96,7 @@ AUTOUPDATE = 'No'
 # Enable Auto Install 'Yes' or 'No'
 AUTOINSTALL = 'No'
 # Addon ID for the repository
-REPOID = 'repository.diggzmatrix'
+REPOID = 'repository.smartnet9'
 # Url to Addons.xml file in your repo folder(this is so we can get the latest version)
 REPOADDONXML = 'https://raw.githubusercontent.com/aeros96/repository.smartnet9/master/zips/addons.xml'
 # Url to folder zip is located in
@@ -107,14 +107,14 @@ REPOZIPURL = 'https://'
 #        Notification Window                            #
 #########################################################
 # Enable Notification screen Yes or No
-ENABLE = 'Yes'
+ENABLE = 'No'
 # Url to notification file
-NOTIFICATION = 'http://grumpeh.aion.feralhosting.com/wizard/MATRIX/notify.txt'
+NOTIFICATION = 'http://'
 # Use either 'Text' or 'Image'
 HEADERTYPE = 'Text'
 # Font size of header
 FONTHEADER = 'Font14'
-HEADERMESSAGE = '[COLOR darkorange][B]Diggz[/B][/COLOR] Matrix Wizard'
+HEADERMESSAGE = '[COLOR darkorange][B]SmartNet[/B][/COLOR] Matrix Wizard'
 # url to image if using Image 424x180
 HEADERIMAGE = 'http://'
 # Font for Notification Window
