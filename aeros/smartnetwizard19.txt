@@ -1,0 +1,15 @@
+
+name="SmartNet199 Matrix"
+version="4.39"
+url="https://www.dropbox.com/s/3f0rgi7zk48g2ay/smartnet199.zip?dl=1"
+minor="http://"
+gui="http://"
+kodi="19"
+theme="http://"
+icon="https://raw.githubusercontent.com/aeros96/smartnet/master/icon.png"
+fanart="https://raw.githubusercontent.com/aeros96/smartnet/master/fanart.jpg"
+preview="http://"
+adult="No"
+info="http://"
+description="SMARTNET199 Matrix Updated 5/30/22."
+
