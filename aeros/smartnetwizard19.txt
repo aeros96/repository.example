@@ -1,6 +1,6 @@
 
-name="SmartNet199 Matrix"
-version="4.39"
+name="SmartNet200 Matrix"
+version="4.40"
 url="https://www.dropbox.com/s/x3sqgfpiwftjb3f/smartnet200.zip?dl=1"
 minor="http://"
 gui="http://"
@@ -11,5 +11,5 @@ fanart="https://raw.githubusercontent.com/aeros96/repository.smartnet9/master/ae
 preview="http://"
 adult="No"
 info="http://"
-description="SMARTNET199 Matrix Updated 5/30/22."
+description="SMARTNET200 Matrix Updated 6/20/22."
 
